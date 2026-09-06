@@ -7,3 +7,55 @@ What is Deep Learning..??
 
     Deep learning algorithms attempt to draw similar conclusions as humans would by 
     continually analyzing data with a given logical structure called Neural Network. 
+
+* Deep Learning vs Machine Learning
+
+Machine Learning (ML) and Deep Learning (DL) are two core branches of Artificial Intelligence (AI) that focus on enabling computers to learn from data. While both are used to make predictions and automate decision-making, they differ in how they process data and the complexity of models they use. Understanding the differences between them helps us to choose the right approach for a problem, optimize resources and achieving better results in real-world applications.
+
+Machine Learning
+Machine Learning is a branch of Artificial Intelligence that enables computer systems to learn patterns from data and make predictions or decisions without being explicitly programmed by humans.
+
+        * Works with smaller datasets.
+        * Requires manual feature extraction.
+        * Easier to interpret and implement.
+        * Best for structured data like tables or CSV files.
+
+Types of Machine Learning Algorithms
+Different types of ML Algorithms:
+
+    Supervised Learning: Here model learns from labelled datasets, where the input and output are clearly defined.
+    Unsupervised Learning: Here the model identifies patterns or relationships in data without any predefined labels.
+    Reinforcement Learning: Here the system learns by interacting with an environment and receiving rewards or penalties based on its actions.
+
+Applications:
+
+    1. Spam Emails: Detecting spam emails or fraudulent transactions.
+    2. Recommendation Systems: Building recommendation systems for movies, products or content.
+    3. Analytics: Predictive analytics in finance, healthcare and marketing.
+
+Deep Learning : 
+
+    Deep Learning uses artificial neural networks with multiple hidden layers that can automatically learn complex patterns from raw data like images, sound, and text. It’s used in applications such as image recognition, natural language processing, and speech recognition.
+
+        * Learns features automatically from data.
+        * Performs better with large datasets.
+        * Needs GPUs or TPUs for training.
+        * Best for unstructured data such as images, audio or text.
+        * Used in complex applications like self-driving cars or chatbots.
+
+Types of Deep Learning
+Deep learning encompasses various architectures, each suited to different types of tasks:
+
+    1. Convolutional Neural Networks: Used for image processing tasks, CNNs are designed to adaptively learn spatial hierarchies of features through convolutional layers.
+    2. Recurrent Neural Networks: Ideal for sequential data. RNNs have loops that allow information to persist, effective for tasks like speech recognition and language modeling.
+    3. Long Short-Term Memory Networks: A type of RNN that addresses the vanishing gradient problem. They are used for complex sequences including text and speech.
+    4. Generative Adversarial Networks: GANs consist of two neural networks that are generator and discriminator that compete against each other, creates synthetic data such as images.
+    5. Transformers: Handles long-range dependencies in data. They are the backbone of models like GPT and BERT, used in natural language processing.
+
+Applications
+
+    1. Object Detection: Recognizing objects and faces in images or videos.
+    2. Natural Language Processing: Converting spoken language into text and understanding speech commands.
+    3. Autonomous Vehicle: Enabling autonomous vehicles to perceive and navigate their environment.
+
+
