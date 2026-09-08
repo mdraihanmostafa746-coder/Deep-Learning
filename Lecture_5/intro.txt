@@ -1,0 +1,60 @@
+
+
+PERCEPTRON LOSS FUNCTION
+
+Perceptron Loss Function is used to measure the error made by a Perceptron classifier when a data point is misclassified.
+
+For a binary classification problem:
+
+y ∈ {-1, +1}
+
+Prediction:
+ŷ = sign(wᵀx + b)
+
+Perceptron Loss for a single data point:
+
+L = max(0, -y(wᵀx + b))
+
+Where:
+y = Actual class label
+w = Weight vector
+x = Input feature vector
+b = Bias
+wᵀx + b = Linear decision function
+
+If the data point is correctly classified:
+y(wᵀx + b) > 0
+
+Then:
+L = 0
+
+If the data point is misclassified:
+y(wᵀx + b) ≤ 0
+
+Then:
+L = -y(wᵀx + b)
+
+For the complete dataset, the total Perceptron Loss is:
+
+L_total = Σ max(0, -yᵢ(wᵀxᵢ + b))
+
+Key Point:
+Perceptron Loss is 0 for correctly classified points and positive for misclassified points.
+
+Purpose:
+It helps update the weights and bias so that the Perceptron can correctly classify the training data.
+
+Weight Update Rule:
+
+w = w + ηyx
+
+Bias Update Rule:
+
+b = b + ηy
+
+Where:
+η = Learning Rate
+
+In short:
+Correct Classification → Loss = 0
+Misclassification → Loss > 0
