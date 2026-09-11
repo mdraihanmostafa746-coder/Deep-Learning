@@ -1,0 +1,5 @@
+A single-layer perceptron cannot solve non-linearly separable problems,
+ such as the exclusive-OR (XOR) function, because it can only 
+ draw a single straight line to divide data
+
+ 
